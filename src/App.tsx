@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
@@ -73,6 +74,9 @@ export default function App() {
           
           {/* Biography and summary details */}
           <About darkMode={darkMode} />
+
+          {/* Formal education and academic credentials */}
+          <Education darkMode={darkMode} />
           
           {/* Measured technical & soft competencies */}
           <Skills darkMode={darkMode} />
