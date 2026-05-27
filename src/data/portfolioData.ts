@@ -56,6 +56,7 @@ export const skills: Skill[] = [
   { name: "Node.js", level: 85, category: "backend" },
   { name: "Express.js", level: 88, category: "backend" },
   { name: "REST APIs", level: 92, category: "backend" },
+  { name: "Python", level: 85, category: "backend" },
   
   // Database & Specialty
   { name: "MongoDB", level: 85, category: "database" },
@@ -66,6 +67,10 @@ export const skills: Skill[] = [
   { name: "Blockchain Dev", level: 75, category: "specialized" },
   { name: "Machine Learning", level: 70, category: "specialized" },
   { name: "DevOps & Git", level: 82, category: "specialized" },
+  { name: "Networking", level: 80, category: "specialized" },
+  { name: "Windows Server", level: 78, category: "specialized" },
+  { name: "Algorithm", level: 85, category: "specialized" },
+  { name: "Mobile Development with (Flutter)", level: 80, category: "specialized" },
 
   // Professional
   { name: "Communication Skills", level: 90, category: "professional" },

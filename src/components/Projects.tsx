@@ -114,6 +114,11 @@ export default function Projects({ darkMode }: ProjectsProps) {
                     alt={project.title}
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-100"
+                    onError={(e) => {
+                      // Gracefully swap to a highly available, themed fallback image seed on failure
+                      e.currentTarget.onerror = null;
+                      e.currentTarget.src = `https://picsum.photos/seed/${project.id}/800/450`;
+                    }}
                   />
                   {/* Category overlay label */}
                   <span className="absolute top-3 left-3 flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-slate-950/80 text-emerald-400 border border-emerald-550/10 backdrop-blur-md">
@@ -184,6 +189,74 @@ export default function Projects({ darkMode }: ProjectsProps) {
                 </div>
               </article>
             ))}
+
+            {/* Special "+15 More Projects" Callout Card */}
+            <article
+              className={`group flex flex-col h-full rounded-2xl overflow-hidden border transition-all duration-300 hover:scale-102 hover:shadow-xl sm:col-span-1 ${
+                darkMode
+                  ? "bg-slate-900/40 border-slate-800/80 hover:border-emerald-500/30 shadow-emerald-500/5"
+                  : "bg-white border-slate-200 hover:border-emerald-500/30 shadow-emerald-500/5"
+              }`}
+            >
+              {/* Visual Cover Banner with giant display typography and elegant dark matrix mesh */}
+              <div className="relative h-48 overflow-hidden bg-slate-950 flex flex-col items-center justify-center z-0 group-hover:bg-slate-900 transition-colors duration-300">
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,#022c22_1px,transparent_1px),linear-gradient(to_bottom,#022c22_1px,transparent_1px)] bg-[size:1.5rem_1.5rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-20" />
+                <span className="relative font-display font-black text-5xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-400 to-emerald-500 drop-shadow-sm group-hover:scale-110 transition-transform duration-500">
+                  +15
+                </span>
+                <span className="relative text-[10px] font-bold uppercase tracking-widest text-emerald-400/80 mt-2">
+                  Live Repositories
+                </span>
+              </div>
+
+              {/* Content Block */}
+              <div className="p-6 flex flex-col flex-grow">
+                <h3 className={`font-display text-lg font-bold group-hover:text-emerald-400 transition-colors ${
+                  darkMode ? "text-slate-100" : "text-slate-950"
+                }`}>
+                  +15 More Projects
+                </h3>
+                
+                <p className={`mt-2.5 text-xs sm:text-sm flex-grow leading-relaxed ${
+                  darkMode ? "text-slate-400" : "text-slate-600"
+                }`}>
+                  Explore additional applications, experiments, and management systems available on my GitHub profile.
+                </p>
+
+                {/* Simulated Skills Tag Chips */}
+                <div className="flex flex-wrap gap-1.5 mt-4 mb-6">
+                  {["React.js", "Node.js", "MERN Stack", "Express", "Databases"].map((tag, tIndex) => (
+                    <span
+                      key={tIndex}
+                      className={`text-[10px] sm:text-xs font-mono px-2.5 py-0.5 rounded-md ${
+                        darkMode
+                          ? "bg-slate-800/50 text-slate-400 border border-slate-705/10"
+                          : "bg-slate-100 text-slate-500 border border-slate-200/50"
+                      }`}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                {/* Explore Button */}
+                <div className="pt-4 border-t border-slate-200 dark:border-slate-800 mt-auto">
+                  <a
+                    href="https://github.com/Robertribbon25"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`flex items-center justify-center space-x-2 w-full px-4 py-3 rounded-xl text-xs font-bold transition-all duration-250 cursor-pointer ${
+                      darkMode
+                        ? "bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 hover:bg-emerald-500 hover:text-white hover:shadow-lg hover:shadow-emerald-500/10"
+                        : "bg-slate-950 text-white hover:bg-emerald-500 hover:shadow-lg hover:shadow-emerald-500/10"
+                    }`}
+                  >
+                    <Github size={14} />
+                    <span>Explore GitHub Profile</span>
+                  </a>
+                </div>
+              </div>
+            </article>
           </div>
         )}
 

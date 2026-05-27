@@ -8,7 +8,6 @@ import Projects from "./components/Projects";
 import GitHubSection from "./components/GitHubSection";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { handleDownloadCV } from "./utils/cvGenerator";
 
 export default function App() {
   // Always default to dark mode for a pristine, professional tech-inspired visual grid
@@ -64,14 +63,12 @@ export default function App() {
         <Navbar
           darkMode={darkMode}
           toggleDarkMode={() => setDarkMode(!darkMode)}
-          onDownloadCV={handleDownloadCV}
         />
         
         <main className="flex-grow">
           {/* Landing viewport */}
           <Hero
             darkMode={darkMode}
-            onDownloadCV={handleDownloadCV}
           />
           
           {/* Biography and summary details */}

@@ -1,13 +1,12 @@
 import { useState, useEffect } from "react";
-import { Github, Instagram, Facebook, MessageCircle, ArrowRight, Download, MapPin, GraduationCap } from "lucide-react";
+import { Github, Instagram, Facebook, MessageCircle, ArrowRight, MapPin, GraduationCap } from "lucide-react";
 import { personalInfo } from "../data/portfolioData";
 
 interface HeroProps {
   darkMode: boolean;
-  onDownloadCV: () => void;
 }
 
-export default function Hero({ darkMode, onDownloadCV }: HeroProps) {
+export default function Hero({ darkMode }: HeroProps) {
   const [textIndex, setTextIndex] = useState(0);
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -75,7 +74,7 @@ export default function Hero({ darkMode, onDownloadCV }: HeroProps) {
           <div className="lg:col-span-7 space-y-6 text-left order-2 lg:order-1">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold tracking-wide border bg-emerald-500/10 text-emerald-500 border-emerald-500/20 shadow-sm animate-bounce">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-ping" />
-              Available for Internships & Full-Time Roles
+              Open to New Opportunities
             </div>
 
             <div className="space-y-2">
@@ -127,19 +126,6 @@ export default function Hero({ darkMode, onDownloadCV }: HeroProps) {
                 <span>View Projects</span>
                 <ArrowRight size={18} />
               </a>
-
-              <button
-                id="hero-download-cv-btn"
-                onClick={onDownloadCV}
-                className={`inline-flex items-center justify-center space-x-2 px-6 py-3.5 rounded-xl font-semibold border transition-all duration-200 cursor-pointer ${
-                  darkMode 
-                    ? "border-slate-700 bg-slate-900 text-slate-200 hover:bg-slate-800 hover:border-slate-600"
-                    : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50 hover:border-slate-400"
-                }`}
-              >
-                <Download size={18} />
-                <span>Download CV</span>
-              </button>
             </div>
 
             {/* Social Channels Container */}

@@ -1,13 +1,12 @@
 import { useState } from "react";
-import { Menu, X, Sun, Moon, Download, Terminal } from "lucide-react";
+import { Menu, X, Sun, Moon, Terminal } from "lucide-react";
 
 interface NavbarProps {
   darkMode: boolean;
   toggleDarkMode: () => void;
-  onDownloadCV: () => void;
 }
 
-export default function Navbar({ darkMode, toggleDarkMode, onDownloadCV }: NavbarProps) {
+export default function Navbar({ darkMode, toggleDarkMode }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
@@ -69,20 +68,6 @@ export default function Navbar({ darkMode, toggleDarkMode, onDownloadCV }: Navba
               >
                 {darkMode ? <Sun size={18} /> : <Moon size={18} />}
               </button>
-
-              {/* Download CV Button */}
-              <button
-                id="download-cv-desktop"
-                onClick={onDownloadCV}
-                className={`flex items-center space-x-1 text-xs font-semibold px-3 py-2 rounded-lg border transition-all cursor-pointer ${
-                  darkMode 
-                    ? "border-slate-700 bg-slate-800/40 text-slate-200 hover:bg-slate-800 hover:text-white"
-                    : "border-slate-300 bg-white text-slate-700 hover:bg-slate-100 hover:text-slate-900"
-                }`}
-              >
-                <span>CV</span>
-                <Download size={13} />
-              </button>
             </div>
           </div>
 
@@ -132,23 +117,7 @@ export default function Navbar({ darkMode, toggleDarkMode, onDownloadCV }: Navba
               {item.label}
             </a>
           ))}
-          <div className="pt-2 border-t border-slate-200 dark:border-slate-800 flex flex-col space-y-2">
-            <button
-              id="download-cv-mobile"
-              onClick={() => {
-                onDownloadCV();
-                setIsOpen(false);
-              }}
-              className={`flex items-center justify-center space-x-2 w-full px-3 py-2.5 rounded-lg border text-sm font-medium transition-all cursor-pointer ${
-                darkMode
-                  ? "border-slate-700 bg-slate-850 text-slate-200 hover:bg-slate-800"
-                  : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
-              }`}
-            >
-              <Download size={16} />
-              <span>Download CV</span>
-            </button>
-          </div>
+
         </div>
       )}
     </nav>
