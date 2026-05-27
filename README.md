@@ -33,14 +33,18 @@ I am passionate about building modern, scalable, and user-friendly web applicati
 
 ### Database
 - MongoDB
-- MySQL
+- MySQL  
 
-### Tools & Platforms
-- Git
-- GitHub
-- Postman
-- Vercel
-- Render
+### 🧰 DevOps & Tools
+
+- Version Control: Git, GitHub  
+- Containerization: Docker, Kubernetes  
+- CI/CD:  Jenkins  
+- Servers: Linux (Ubuntu)  
+- Deployment: Vercel, Netlify  
+- Cloud Basics: AWS  
+- API Testing: Postman  
+- Development: VS Code  
 
 
 
