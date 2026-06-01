@@ -146,7 +146,7 @@ const robert: Developer = {
 ## 🌐 Let's Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-Robertribbon25-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Robertribbon25)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ndayiragije_Robert-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/Ndayiragije-Robert)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ndayiragije_Robert-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/Ndayiragije-Robert)
 [![Email](https://img.shields.io/badge/Gmail-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:your.email@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Robertribbon25.vercel.app-0891b2?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://Robertribbon25.vercel.app)
 
