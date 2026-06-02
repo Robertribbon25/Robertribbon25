@@ -118,7 +118,7 @@ const robert: Developer = {
 <table>
   <tr>
     <td align="center" colspan="6">
-      <img src="https://img.shields.io/badge/──────────%20⚙️%20BACKEND%20%26%20DATABASES%20──────────-0D1117?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/%20⚙️%20BACKEND%20%26%20DATABASES%2-0D1117?style=for-the-badge"/>
     </td>
   </tr>
   <tr>
@@ -155,7 +155,7 @@ const robert: Developer = {
 <table>
   <tr>
     <td align="center" colspan="4">
-      <img src="https://img.shields.io/badge/──────────%20⛓️%20BLOCKCHAIN%20%26%20WEB3%20──────────-0D1117?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/%20⛓️%20BLOCKCHAIN%20%26%20WEB3%20-0D1117?style=for-the-badge"/>
     </td>
   </tr>
   <tr>
