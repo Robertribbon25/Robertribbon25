@@ -337,15 +337,15 @@ const robert: Developer = {
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=Robertribbon25&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=FFFFFF&count_private=true" width="420"/>
+      <!-- <img src="https://github-readme-stats.vercel.app/api?username=Robertribbon25&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=FFFFFF&count_private=true" width="420"/>
     </td>
     <td>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Robertribbon25&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&langs_count=8" width="340"/>
-    </td>
+    </td> -->
   </tr>
 </table>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Robertribbon25&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=7C3AED&fire=FF6B35&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=FFFFFF" width="700"/>
+<!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=Robertribbon25&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=7C3AED&fire=FF6B35&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=FFFFFF" width="700"/> -->
 
 </div>
 
