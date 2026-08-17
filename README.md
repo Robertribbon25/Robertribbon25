@@ -3,9 +3,9 @@
 <!-- ══════════════════════════════════════════════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,40:0A3D62,100:00D9FF&height=220&section=header&text=NdayiragijeRobert&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack%20%7C%20Blockchain%20%7C%20AI%20%26%20AgriTech%20Developer&descAlignY=60&descSize=18&animation=fadeIn" width="100%"/>
+<!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,40:0A3D62,100:00D9FF&height=220&section=header&text=NdayiragijeRobert&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack%20%7C%20Blockchain%20%7C%20AI%20%26%20AgriTech%20Developer&descAlignY=60&descSize=18&animation=fadeIn" width="100%"/> -->
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&lines=Hey+there!+I'm+NdayiragijeRobert+👋;Full-Stack+Developer+%7C+React+%26+Node.js+💻;Blockchain+Engineer+%7C+Solidity+%26+Web3+⛓️;AI+%26+AgriTech+Innovator+🌱;Building+the+Future%2C+One+Commit+at+a+Time+🚀)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&lines=Hey+there!+I'm+NdayiragijeRobert+👋;Full-Stack+Developer+%7C+React+%26+Node.js+💻;Blockchain+Engineer+%7C+Solidity+%26+Web3+⛓️;AI+%26+AgriTech+Innovator+🌱;Building+the+Future%2C+One+Commit+at+a+Time+)](https://git.io/typing-svg)
 
 <br/>
 
